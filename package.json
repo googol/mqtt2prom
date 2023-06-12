@@ -2,7 +2,9 @@
   "name": "mqtt2prom",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+      "start": "nodemon --config nodemon.json"
+  },
   "license": "UNLICENSED",
   "engines": {
     "node": "18.x"
@@ -10,6 +12,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "mqtt": "^4.3.7",
+    "nodemon": "^2.0.22",
     "prom-client": "^14.2.0"
   }
 }
