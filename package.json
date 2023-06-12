@@ -2,10 +2,12 @@
   "name": "mqtt2prom",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-  },
+  "scripts": {},
   "license": "UNLICENSED",
   "engines": {
-      "node": "18.x"
+    "node": "18.x"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7"
   }
 }
