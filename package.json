@@ -8,6 +8,7 @@
     "node": "18.x"
   },
   "dependencies": {
-    "mqtt": "^4.3.7"
+    "mqtt": "^4.3.7",
+    "prom-client": "^14.2.0"
   }
 }
